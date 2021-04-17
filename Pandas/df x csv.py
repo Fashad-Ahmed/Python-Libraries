@@ -22,7 +22,6 @@ print(df_csv1)
 df_csv2 = pd.read_csv('csv_example', names = ['a','b','c'])
 print(df_csv2)
 
-# sep
 
 df_csv3 = pd.read_csv('csv_example', sep=":", index_col=[0])    #[0....,2]
 print(df_csv3)
